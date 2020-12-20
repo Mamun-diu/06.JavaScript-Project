@@ -1,0 +1,82 @@
+body{
+  background: #80bdff;
+}
+#fnumber{
+  font-size: 40px;
+  color:#e91010;
+  font-weight: bold;
+}
+#snumber{
+  font-size: 40px;
+  color: #071fbe;
+  font-weight: bold;
+}
+#input{
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 0px;
+  text-align: center;
+  height: 45px;
+  color: #b70548;
+}
+.inputBox{
+  position:relative;
+}
+#emailVal.valid .inputBox:after{
+  content:'';
+  position:absolute;
+  right:-12px;
+  bottom:7px;
+  height:24px;
+  width:24px;
+  background:url(images/valid.png);
+  background-size: cover;
+  z-index:1000;
+}
+.box{
+  width:280px;
+  background: #282C34;
+  border-radius: 30px;
+  padding: 10px;
+}
+.inputBox{
+  position:relative;
+  margin-bottom: 10px;
+}
+#inputDiv.valid .inputBox:after{
+  content:'';
+  position:absolute;
+  right:-12px;
+  bottom:7px;
+  height:24px;
+  width:24px;
+  background:url(images/valid.png);
+  background-size: cover;
+  z-index:1000;
+}
+#inputDiv.invalid .inputBox:after{
+  content:'';
+  position:absolute;
+  right:-12px;
+  bottom:7px;
+  height:24px;
+  width:24px;
+  background:url(images/invalid.png);
+  background-size: cover;
+  z-index:1000;
+}
+#test{
+  float:right;
+  background: #282C34;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+}
+.level{
+  float:left;
+  background: #282C34;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+
+}
