@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Email Validation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="registration">
+        <h2>Registration Form</h2>
+        <form id="form" class="" action="index.html" method="post">
+          <div id="emailVal">
+            <div class="form-group inputBox ">
+              <label for="email">Email Address</label>
+              <input id="email" class="form-control" type="text" name="" value="" onkeyup="emailValidation()">
+            </div>
+          </div>
+          <div id="passwordVal">
+            <div class="form-group inputBox">
+              <label for="password">Password</label>
+              <input id="password" class="form-control" type="text" name="" value="" onkeyup="passwordValidation()">
+            </div>
+          </div>
+          <div id="confirmPasswordVal">
+            <div class="form-group inputBox">
+              <label for="confirmPassword">Confirm Password</label>
+              <input id="confirmPassword" class="form-control" type="text" name="" value=""onkeyup="confirmPasswordValidation()">
+            </div>
+          </div>
+          <input id="emailCount" type="hidden" name="" value="">
+          <input id="passwordCount" type="hidden" name="" value="">
+          <input id="confirmPasswordCount" type="hidden" name="" value="">
+          <div id="btnsubmit">
+            <button id="submit" class="btn btn-primary w-100" type="" name="">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>
